@@ -1,9 +1,9 @@
-from django.views.generic.edit import CreateView
-from django.views.generic.edit import ListView
-from django.views.generic.edit import DetailView
-from django.views.generic.edit import UpdateView
+from django.views.generic import CreateView
+from django.views.generic import ListView
+from django.views.generic import DetailView
+from django.views.generic import UpdateView
 from django.urls import reverse_lazy
-from I4G0009965BJ.blog.models import Post
+from blog.models import Post
 
 # Create your views here.
 class PostListView(ListView):
